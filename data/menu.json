@@ -1,0 +1,188 @@
+{
+  "categories": [
+    {
+      "id": "mains",
+      "name": "Main Dishes",
+      "description": "Hearty, soul-warming dishes from Burkina Faso",
+      "dishes": [
+        {
+          "id": "riz-gras",
+          "name": "Riz Gras",
+          "description": "A celebratory one-pot dish of fragrant rice simmered with tomatoes, vegetables, and your choice of tender lamb or chicken. A West African comfort classic that brings families together.",
+          "price": 18.50,
+          "dietary": ["gluten-free"],
+          "spiceLevel": "mild",
+          "popular": true
+        },
+        {
+          "id": "poulet-bicyclette",
+          "name": "Poulet Bicyclette",
+          "description": "Free-range chicken marinated in ginger, garlic, and aromatic spices, grilled to perfection. Named after the chickens that roam freely, this dish captures the authentic flavors of village life.",
+          "price": 22.00,
+          "dietary": ["gluten-free", "dairy-free"],
+          "spiceLevel": "medium",
+          "popular": true
+        },
+        {
+          "id": "tiga-dega-na",
+          "name": "Tiga Dega Na",
+          "description": "Slow-cooked peanut butter stew with tender beef, okra, and aromatic vegetables. A rich, nutty masterpiece served over steamed rice or with traditional tô.",
+          "price": 20.00,
+          "dietary": ["gluten-free"],
+          "spiceLevel": "mild"
+        },
+        {
+          "id": "poisson-braise",
+          "name": "Poisson Braisé",
+          "description": "Whole tilapia grilled over open flame with a spicy marinade of chili, onions, and tomatoes. Served with attiéké (cassava couscous) for a coastal West African experience.",
+          "price": 24.00,
+          "dietary": ["gluten-free", "dairy-free"],
+          "spiceLevel": "hot"
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides & Staples",
+      "description": "Traditional accompaniments to complete your meal",
+      "dishes": [
+        {
+          "id": "to",
+          "name": "Tô",
+          "description": "Smooth, hearty dough made from millet or sorghum flour. The soul of Burkinabè cuisine, perfect for scooping up rich sauces and stews.",
+          "price": 6.00,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "none"
+        },
+        {
+          "id": "attieke",
+          "name": "Attiéké",
+          "description": "Fermented cassava couscous with a slightly tangy flavor and fluffy texture. A beloved side across West Africa.",
+          "price": 7.00,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "none"
+        },
+        {
+          "id": "aloco",
+          "name": "Aloco",
+          "description": "Sweet fried plantains caramelized to golden perfection, served with a spicy tomato and onion sauce.",
+          "price": 8.00,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "mild",
+          "popular": true
+        },
+        {
+          "id": "sauce-gombo",
+          "name": "Sauce Gombo",
+          "description": "Velvety okra sauce simmered with tomatoes, palm oil, and traditional spices. A nutritious complement to any main dish.",
+          "price": 9.00,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "mild"
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Traditional Drinks",
+      "description": "Refreshing beverages inspired by West African traditions",
+      "dishes": [
+        {
+          "id": "bissap",
+          "name": "Bissap",
+          "description": "Vibrant hibiscus tea served chilled with a hint of mint and ginger. Ruby-red refreshment that's both tart and sweet.",
+          "price": 5.00,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "none",
+          "popular": true
+        },
+        {
+          "id": "gnamakoudji",
+          "name": "Gnamakoudji",
+          "description": "Refreshing ginger juice with a citrus twist. Spicy, invigorating, and perfect for warm Australian days.",
+          "price": 5.50,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "mild"
+        },
+        {
+          "id": "tamarind-juice",
+          "name": "Tamarind Juice",
+          "description": "Sweet and tangy juice made from tamarind pulp, a tropical delight with a unique flavor profile.",
+          "price": 5.50,
+          "dietary": ["vegan", "gluten-free"],
+          "spiceLevel": "none"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Sweet Endings",
+      "description": "Traditional West African desserts and treats",
+      "dishes": [
+        {
+          "id": "degue",
+          "name": "Dêguê",
+          "description": "Creamy millet yogurt pudding with a hint of vanilla, topped with fresh pineapple and coconut. Light, refreshing, and authentically West African.",
+          "price": 8.00,
+          "dietary": ["vegetarian", "gluten-free"],
+          "spiceLevel": "none"
+        },
+        {
+          "id": "beignets",
+          "name": "Beignets",
+          "description": "Golden fried dough fritters dusted with sugar. Crispy outside, fluffy inside—perfect with coffee or tea.",
+          "price": 7.00,
+          "dietary": ["vegetarian"],
+          "spiceLevel": "none",
+          "popular": true
+        }
+      ]
+    }
+  ],
+  "cateringPackages": [
+    {
+      "id": "family-feast",
+      "name": "Family Feast",
+      "description": "Perfect for intimate gatherings (10-15 guests)",
+      "minGuests": 10,
+      "maxGuests": 15,
+      "pricePerPerson": 35.00,
+      "includes": [
+        "Choice of 2 main dishes",
+        "2 side dishes",
+        "Traditional drinks (Bissap or Gnamakoudji)",
+        "Dessert platter"
+      ]
+    },
+    {
+      "id": "celebration-spread",
+      "name": "Celebration Spread",
+      "description": "Ideal for birthdays, anniversaries, and small celebrations (20-40 guests)",
+      "minGuests": 20,
+      "maxGuests": 40,
+      "pricePerPerson": 32.00,
+      "includes": [
+        "Choice of 3 main dishes",
+        "3 side dishes",
+        "Full beverage selection",
+        "Dessert table with Dêguê and Beignets",
+        "Disposable serving ware"
+      ]
+    },
+    {
+      "id": "grand-event",
+      "name": "Grand Event",
+      "description": "For weddings, corporate events, and large gatherings (50+ guests)",
+      "minGuests": 50,
+      "maxGuests": null,
+      "pricePerPerson": 28.00,
+      "includes": [
+        "Full menu selection (4+ main dishes)",
+        "4 side dishes",
+        "Complete beverage station",
+        "Dessert buffet",
+        "Professional serving staff",
+        "Table setup and cleanup"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC143C;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#FAF8F3"/>
+  <circle cx="400" cy="300" r="150" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="120" fill="#DC143C" opacity="0.4"/>
+  <text x="400" y="480" font-family="serif" font-size="48" fill="#8B0000" text-anchor="middle" font-weight="bold">Bissap</text>
+  <text x="400" y="530" font-family="sans-serif" font-size="20" fill="#8B7123" text-anchor="middle">Hibiscus Tea</text>
+</svg>

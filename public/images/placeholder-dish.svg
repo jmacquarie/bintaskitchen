@@ -1,0 +1,12 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DBCDA7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="100" fill="#8B4513" opacity="0.3"/>
+  <text x="400" y="480" font-family="serif" font-size="64" text-anchor="middle">🍽️</text>
+  <text x="400" y="540" font-family="sans-serif" font-size="24" fill="#5E4C18" text-anchor="middle">West African Cuisine</text>
+</svg>
